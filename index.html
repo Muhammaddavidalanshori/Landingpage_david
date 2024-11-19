@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-i<html lang="en">
-    <head>     
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
         <style>
             body
             {
-                padding-top: 56px;
+               padding-top: 56px;
             }
             .jumbotron
             {
-                background-color:cadetblue;
+               background-color: rgb(77, 81, 104);
             }
+            .background-header
+                {
+                background-image: url("images/header.jpeg");
+                background-color: #f6faf9;
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative; 
+               }
+               .button-primer {
+                    background-color: #00bd8e;
+                    border-color : #0b9b6b;
+                    color        : #fff;
+                    text-shadow: 0px 0px;  
+                }
+                    .button-primer:hover {
+                    background-color: #038c6a;
+                    color        : #fff;
+                    text-shadow: 0px 0px;  
+                }
         </style>
-    </head>
-    <body>
-     <!--Navigasi Bar-->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          </style>
+    <!--Navigasi Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-             <a class="navbar-brand" href="#"><img src="img/ed2e063c-5f0a-44f6-b0df-1ceaeada5ff5.jfif"></a>
+             <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>  
@@ -42,41 +64,44 @@ i<html lang="en">
            </div>
       </div>
     </nav>
-      ...
-    </nav>
 
-    <!--Header-->
-    <header class="jumbotron">
+     <header class="jumbotron">
+      <section class="jumbotron jumbotron-fluid background-header">
+         <div class="container-fluid text-center">
+             <h1 class="display-3">Solusi Terbaik Belajarmu</h1>
+             <p class="lead" style="font-weight: bold;color:#b61042;">kami menyediakan banyak modul yang kamu butuhkan untuk belajar pemograman,dari tingkat dasar hingga mahir.</p>
+             <a href="#" class="btn button-primer btn-lg" role="button">gabung sekarang</a>
+             <a href="#" class="btn secondary btn-lg" role="button">pelajari dulu</a>
+                 </div>
+             </section>
+         </div>
+     </section>
+ </header>
+     </header>
+
+     <!--Service-->
+     <selection id="services">
         ...
-    </header>
+     </selection>
 
-    <!--Service-->
-    <section id="services">
+     <!--Product-->
+     <selection id="Product">
         ...
-    </section>
+     </selection>
+     
+     <!--About-->
+     <selection id="about">
+        ...
+     </selection>
+     
+     <!--Contact-->
+     <section id="contact">
+        ...
+     </section>
 
-    <!--Product-->
-    <section id="product">
-    ...
-    </section>
-
-    <!--About-->
-    <section id="about">
-    ...
-    </section>
-
-    <!--Contact-->
-    <section id="contact">
-    ...
-    </section>
-
-    <!--Footer-->
-    <footer>
-    ...
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</html>
+     <!--Footer-->
+     <footer>
+        ...
+     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>     
